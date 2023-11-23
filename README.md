@@ -13,78 +13,78 @@ Welcome to the XV Quiz for CSL 3030 - Operating Systems!
 
 #### Question 1: Basics
 1. What is XV6?
-   - a. A programming language
+   
+Answer : 
    - b. A Unix-like operating system
-   - c. A file system
-   - d. An assembly language
+
 
 #### Question 2: Architecture
 2. XV6 is based on which earlier operating system?
-   - a. Windows
-   - b. Linux
+   
+Answer : 
    - c. BSD
-   - d. DOS
+
 
 #### Question 3: File System
 3. Which file system is used in XV6?
-   - a. FAT32
-   - b. NTFS
-   - c. ext4
+
+Answer : 
    - d. simple
 
 #### Question 4: System Calls
 4. How are system calls implemented in XV6?
-   - a. As functions in the C standard library
+
+Answer : 
    - b. As interrupts
-   - c. Through the command line
-   - d. As external programs
+
 
 #### Question 5: Processes
 5. In XV6, what is the maximum number of processes that can run simultaneously?
+
+Answer : 
    - a. 128
-   - b. 256
-   - c. 512
-   - d. 1024
+
 
 #### Question 6: Shell
 6. What is the name of the shell used in XV6?
-   - a. Bash
-   - b. Zsh
+
+Answer : 
    - c. Sh
-   - d. Fish
+
 
 #### Question 7: Scheduling
 7. How does XV6 handle process scheduling?
+
+Answer : 
    - a. Round-robin scheduling
-   - b. Priority-based scheduling
-   - c. First-Come-First-Serve (FCFS)
-   - d. Random scheduling
+
 
 #### Question 8: Memory Management
 8. Which memory management technique is used in XV6?
+
+Answer : 
    - a. Paging
-   - b. Segmentation
-   - c. Virtual Memory
-   - d. None of the above
+
 
 #### Question 9: Interrupts
 9. How are interrupts handled in XV6?
-   - a. Through polling
+
+Answer : 
    - b. Using hardware interrupts
-   - c. Using software interrupts
-   - d. Both b and c
+
 
 #### Question 10: Multithreading
 10. Does XV6 support multithreading?
-    - a. Yes
+
+Answer : 
     - b. No
 
 #### Bonus Question:
 11. Who developed XV6?
-    - a. Microsoft
-    - b. Google
+
+Answer : 
     - c. MIT
-    - d. IBM
+
 
 ## Theoretical Questions
 
@@ -116,4 +116,29 @@ Welcome to the XV Quiz for CSL 3030 - Operating Systems!
 20. Outline the steps involved in the boot process of XV6. What happens from the moment the computer is powered on to when the XV6 kernel is loaded into memory?
 
 ## Answers
-Please write your answers here
+
+### ANSWER 12
+
+Xv6 uses the following names for process states (line 2350): UNUSED, EMBRYO, SLEEPING,
+RUNNABLE, RUNNING, ZOMBIE.
+
+UNUSED: This state represents a process that has been created but is not currently in use.
+
+EMBRYO: In this state, the process is in the process of being created but is not yet ready to run.
+
+SLEEPING: A process in this state is waiting for some event to occur, such as the completion of I/O operations or the expiration of a timer.
+
+RUNNABLE: A process in this state is ready to run but is not currently executing because other processes are running.
+
+RUNNING: The process is currently being executed by the CPU.
+
+ZOMBIE: This state represents a process that has finished executing, but its exit status is still needed by its parent process before it can be completely terminated.
+
+### ANSWER 13 
+
+
+
+
+
+
+
